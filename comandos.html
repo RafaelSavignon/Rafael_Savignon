@@ -1,1 +1,47 @@
-
+<html>
+  <body>
+    <p>
+      Todos os arquivos de origem devem ser nomeados de acordo com a classe pública que eles contêm, acrescentando o sufixo.java, por exemplo, HelloWorldApp.java. 
+      Ele deve primeiro ser compilado em bytecode, usando um compilador Java , 
+      produzindo um arquivo com o .classsufixo ( HelloWorldApp.class, neste caso). Só então ele pode ser executado ou lançado. 
+      O arquivo de origem Java pode conter apenas uma classe pública, mas pode conter várias classes com um modificador de acesso não 
+      público e qualquer número de classes internas públicas. 
+      Quando o arquivo de origem contém várias classes, é necessário tornar uma classe (introduzida pela palavra- classchave) 
+      pública (precedida pela palavra- publicchave) e nomear o arquivo de origem com esse nome de classe pública.
+      Uma classe que não é declarada pública pode ser armazenada em qualquer .javaarquivo. O compilador irá gerar 
+      um arquivo de classe para cada classe definida no arquivo de origem. O nome do arquivo de 
+      classe é o nome da classe, com .class anexado. Para geração de arquivo de classe, as classes 
+      anônimas são tratadas como se seu nome fosse a concatenação do nome de sua classe delimitadora, um $ e um inteiro.
+      A palavra- chave public denota que um método pode ser chamado de código em 
+      outras classes, ou que uma classe pode ser usada por classes fora da hierarquia de classes. 
+      A hierarquia de classes está relacionada ao nome do diretório no qual o arquivo .java está localizado. 
+      Isso é chamado de modificador de nível de acesso. Outros modificadores de nível de acesso 
+      incluem as palavras-chave private(um método que só pode ser acessado na mesma classe) e protected(que permite o acesso ao código do mesmo pacote). 
+      Se um pedaço de código tentar acessar métodos privados ou métodos protegidos, a JVM lançará umSecurityException
+      A palavra-chave static[19] na frente de um método indica um método estático , que está 
+      associado apenas à classe e não a nenhuma instância específica dessa classe. 
+      Apenas métodos estáticos podem ser invocados sem uma referência a um objeto. 
+      Métodos estáticos não podem acessar nenhum membro de classe que também não seja estáticos. 
+      Métodos que não são designados como estáticos são métodos de instância e requerem uma instância específica de uma classe para operar.
+      A palavra-chave voidindica que o método main não retorna nenhum valor ao chamador. 
+      Se um programa Java sair com um código de erro, ele deverá chamar System.exit()explicitamente.
+      O nome do método mainnão é uma palavra-chave na linguagem Java. 
+      É simplesmente o nome do método que o iniciador Java chama para passar o controle ao programa. 
+      As classes Java executadas em ambientes gerenciados como applets e Enterprise JavaBeans não usam ou precisam de um main()método. 
+      Um programa Java pode conter várias classes que possuem mainmétodos, o que significa que a VM precisa ser informada explicitamente de qual classe iniciar.
+      O método main deve aceitar um array de Stringobjetos. Por convenção, ele é referenciado como se argsqualquer 
+      outro nome de identificador legal possa ser usado. Desde o Java 5, o método main também pode usar argumentos variáveis ​​, na forma de public 
+      static void main(String... args), permitindo que o método main seja invocado com um número arbitrário de Stringargumentos. 
+      O efeito desta declaração alternativa é semanticamente idêntico (ao argsparâmetro que ainda é um array de Stringobjetos), mas permite uma 
+      sintaxe alternativa para criar e passar o array.
+      O ativador Java inicia o Java carregando uma determinada classe (especificada na linha de comando ou como um atributo em um JAR ) e 
+      iniciando seu public static void main(String[])método. Programas autônomos devem declarar esse método explicitamente. 
+      O String[] argsparâmetro é uma matriz de Stringobjetos contendo quaisquer argumentos passados ​​para a classe. Os parâmetros a 
+      mainsão frequentemente passados ​​por meio de uma linha de comando .
+      A impressão é parte de uma biblioteca padrão Java: A Systemclasse define um campo estático público chamado out. 
+      O outobjeto é uma instância da PrintStreamclasse e fornece muitos métodos para imprimir dados para fora do padrão , incluindo o 
+      println(String)que também acrescenta uma nova linha à string passada .
+      A string "Hello World!"é convertida automaticamente em um objeto String pelo compilador.
+    </p>
+   </body>
+</html>
