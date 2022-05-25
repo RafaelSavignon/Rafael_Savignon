@@ -1,3 +1,8 @@
+# Equipe<br>
+1º) Rafael Savignon<br>
+2º) Ricardo Magalhães Simões<br>
+3º) Sandro Smarzaro<br>
+
 # Prof Ricardo de Magalhães Simões
 
 Este arquivo funciona como um documento de "apresentação" do projeto.
