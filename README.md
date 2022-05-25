@@ -20,10 +20,17 @@ Complete o texto, indicando o que você quer fazer:
 5) Cronograma inicial (datas): 
 
 5.1) Início do Projeto:  25/05/2022
+
 5.2) Primeira Versão:  25/05/2022
+
 5.3) Divulgação seletiva: 25/06/2022
+
 5.4) Análise de Comentários:  25/06/2022
+
 5.5) Revisão do Projeto:  30/07/2022
+
 5.6) Divulgação da Revisão:  01/08/2022
+
 5.7) Divulgação Ampla:  08/08/2022
+
 5.8) Preparativo para Segunda Versão:  09/08/2022
